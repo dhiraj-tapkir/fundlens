@@ -1,0 +1,33 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# local data and database files
+data/
+*.duckdb
+*.duckdb.wal
+*.ducklake
+*.parquet
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# dbt
+transform/target/
+transform/logs/
+transform/dbt_packages/
+
+# airflow
+orchestration/logs/
+airflow.db
+
+# web app
+web/node_modules/
+web/dist/
+
+# os junk
+.DS_Store
