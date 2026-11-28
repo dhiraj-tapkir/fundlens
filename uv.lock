@@ -454,6 +454,7 @@ dependencies = [
     { name = "dbt-duckdb" },
     { name = "dlt", extra = ["duckdb"] },
     { name = "duckdb" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -462,6 +463,7 @@ requires-dist = [
     { name = "dbt-duckdb", specifier = ">=1.11.1" },
     { name = "dlt", extras = ["duckdb"], specifier = ">=1.31.0" },
     { name = "duckdb", specifier = ">=2.0.1" },
+    { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 
 [[package]]
